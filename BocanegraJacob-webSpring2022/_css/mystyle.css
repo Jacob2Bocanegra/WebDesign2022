@@ -1,0 +1,23 @@
+
+   .banner {
+        width: 100%;
+        height: 200px;
+        background-color: #036B1D;
+        border: 25px;
+        /* margin: 10px; */
+    }
+    .content {
+        width: 100%;
+        height: 300px;
+        background-color: #07EB40;
+        border: 20px; color: #036B1D;
+    }
+    /* respondive code */
+@media (max-width: 897px) {
+    .banner,
+    .content {
+      background-color: red;
+      /* The width is 100%, when the viewport is 800px or smaller */
+      font-size: 50px;
+    }
+}

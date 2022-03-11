@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <p>hello</p>
+    <meta charset="utf-8">
+    <title>My test page</title>
+    <script>
+        console.log("hello world!");
+    </script>
+    <!-- I think this links the css file? -->
+    <link rel="stylesheet" href="_css/mystyle.css">
+    <!-- banner and content lets me have two independent banners -->
+    <style>
+        h1 {
+            color:green;
+        }
+        p {
+            color:blue;
+        }
+        .banner {
+            width: 100%;
+            height: 200px;
+            background-color: #036B1D;
+            border-radius: 10px;
+            border-color: darkviolet;
+            padding-left: 50px;
+            /* margin: 10px; */
+        }
+        .content {
+            width: 100%;
+            height: 300px;
+            background-color: #07EB40;
+            padding-left: 50px;
+        }
+        .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+
+.button3:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.button4:hover {background-color: #e7e7e7;}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button5:hover {
+  background-color: #555555;
+  color: white;
+}
+
+/* has to be connected to the body button class in the body */
+    </style>
+    <body>
+   <head>
+    <h2>My cool website with buttons and banners</h2>
+    
+    <button class="button button1">These</button> 
+    <button class="button button2">Are</button>
+    <button class="button button3">My</button>
+    <button class="button button4">Color-changing</button>
+    <button class="button button5">Buttons</button>
+    
+
+<!-- the body tag is everything I see in the browser -->
+<body>
+    <div class="banner">Hello this is my banner</div>
+    <div class="content">
+        <p style="color:rgb(0, 0, 0)">This is my second banner with a button/ click dino to go to bcp.org</p>
+        <a href="https://bcp.org">    <img width = "250px" src="_images\dino.png" alt="My test image">
+        </a>
+    </div>
+
+</div>
+</body>
+
+</html>
